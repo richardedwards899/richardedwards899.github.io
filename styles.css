@@ -1,0 +1,110 @@
+
+body {
+  background-image: url("images/background/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+nav {
+  /*background-color: red;*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  /*background-color: green;*/
+  display: flex;
+  justify-content: center;
+  font-family: Amatic SC;
+  color: white;
+  font-size: 80px;
+  min-width: 750px;
+  padding: 95px 0px 0px 0px;
+}
+
+.subtitle {
+  background-color: DarkSalmon;
+  font-size: 35px;
+  font-weight: 900;
+  padding: 10px 0px 20px 0px;
+}
+
+.image-panel { /*this is the container that will hold all the pictures */
+  /*background-color: cyan;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+figure {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  max-width: 348px;
+  border: 1px solid grey;
+  margin: 40px 0px 0px 30px;
+  border-radius: 5px;
+}
+
+figure:hover {
+  border: 1px solid DarkSalmon;
+}
+
+img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  max-width: 348px;
+  max-height: 261px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*situates the label in the middle (vertically).*/
+  text-align: center;
+  flex-grow: 1; /*allows the label to grow to fill the figure container*/
+  color: white;
+  padding: 5px;
+  font-family: Raleway;
+  font-weight: 100;
+  background-color: #004466;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-right: 20px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 40px;
+  font-size: 35px;
+  color: black;
+}
+
+p {
+  /*background-color: red;*/
+  width: 80%;
+  margin: 10px auto 20px auto;
+  color: white;
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 100;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Amatic SC;
+  font-weight: bold;
+}
+
+a:hover {
+  color: DarkSalmon;
+}

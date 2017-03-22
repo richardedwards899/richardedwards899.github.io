@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  background-color: green;
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  font-family: Amatic SC;
+  color: white;
+  font-size: 80px;
+  min-width: 750px;
+  /*padding: 95px 0px;*/
+}
